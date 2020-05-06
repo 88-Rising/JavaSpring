@@ -46,9 +46,9 @@ public class Lifecycle implements BeanNameAware, BeanFactoryAware,
         System.out.println("InitializingBean");
     }
 
-    public void init(){
-        System.out.println("init");
-    }
+//    public void init(){
+//        System.out.println("init");
+//    }
 
     public void destroy2(){
         System.out.println("destroy2");
